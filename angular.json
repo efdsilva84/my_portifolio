@@ -27,9 +27,48 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "public/assets/css/style.css",
+              "public/assets/css/blog.css",
+              "public/assets/css/responsive.css",
+              "public/assets/css/bootstrap.css",
+              "public/assets/css/bootstrap.min.css",
+              "public/assets/css/hover.min.css",
+              "public/assets/css/magnific-popup.css",
+              "public/assets/css/owl.theme.default.min.css",
+              "public/assets/css/owl.theme.green.min.css"
+   
+
+              
+
+
+
+
+
+
             ],
-            "scripts": [],
+            "scripts": [
+              "public/assets/js/bootstrap.bundle.min.js",
+              "public/assets/js/bootstrap.min.js",
+              "public/assets/js/main.js",
+              "public/assets/js/owl.carousel.min.js",
+              "public/assets/js/owl.carousel.js",
+              "public/assets/js/style.teste.js",
+              "public/assets/js/isotope.pkgd.js",
+              "public/assets/js/isotope.pkgd.min.js",
+              "public/assets/js/magnific-popup.js"
+
+
+
+
+
+
+
+
+
+
+
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
