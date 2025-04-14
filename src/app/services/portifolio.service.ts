@@ -5,7 +5,9 @@ import { ApiService } from './api.service';
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/json',
+        Authorization: 'Admin 123456'
+
 
   })
 };
@@ -17,7 +19,7 @@ export class PortifolioService {
 
   constructor(private api: ApiService) { }
 
-  sendMessage() {
-    return this.api.post('eburger/eburger_txt', false, httpOptions);
+  sendMessage(data:any) {
+    return this.api.post('portifolio/msg_portifolio', data, httpOptions);
   }
 }
